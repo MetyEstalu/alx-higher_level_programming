@@ -1,4 +1,5 @@
 #!/usr/bin/python3
-for i in range(ord('a'), ord('z') + 1):
-    print("{:s}".format(chr(i)), end="")
+
+for x in range(ord("a"), ord("z") + 1):
+    print("{}".format(chr(x)), end="")
 
